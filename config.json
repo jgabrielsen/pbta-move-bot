@@ -1,5 +1,5 @@
 {
-	"clientId": "123456789012345678",
-	"guildId": "876543210987654321",
-	"token": "your-token-goes-here"
+	"clientId": "the_application_id_of_your_bot_goes_here",
+	"guildId": "your_server_id_goes_here",
+	"token": "your_token_goes_here"
 }
