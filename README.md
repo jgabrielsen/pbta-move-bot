@@ -6,6 +6,7 @@ A simple Discord bot that returns moves from PbtA games for quick reference. Bas
 ## To deploy your own version on your local machine
 This bot is only intended to run on one server. You can't add my bot to your server; you'll have to create your own:
 1. [Install Node](https://discordjs.guide/preparations/#installing-node-js), [initiate the project folder](https://discordjs.guide/preparations/#initiating-a-project-folder), and [install Discord.js](https://discordjs.guide/preparations/#installing-discord-js) (and also probably [install a linter](https://discordjs.guide/preparations/setting-up-a-linter.html), especially if you plan to add on any new functionality).
+1. In the project folder, run `npm install @discordjs/builders @discordjs/rest discord-api-types`.
 1. [Create your bot in the Discord Developer Portal](https://discordjs.guide/preparations/setting-up-a-bot-application.html) and [add it to your server](https://discordjs.guide/preparations/adding-your-bot-to-servers.html).
 1. Edit [config.json](config.json) for your bot and server.
     - `clientId` is your bot's unique identifier. In the Discord Developers Portal, go to your app's General Information page and look for the "Application ID."
